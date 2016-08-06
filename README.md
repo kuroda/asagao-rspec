@@ -35,3 +35,9 @@ Rails.application.config.generators do |g|
   g.test_framework 'rspec'
 end
 ```
+
+== factories を test/ から spec/ へ移動
+
+```text
+$ mv test/factories spec/
+```
